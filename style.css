@@ -2,7 +2,9 @@ body {
   background-color: #C2FFD9;
   text-align: center;
 }
-
+.top-container{
+  background-image: url('trophy.png');
+}
 .pic-align {
   margin-right: 30px;
   margin-left: 170px;
