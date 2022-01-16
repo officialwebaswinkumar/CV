@@ -1,0 +1,111 @@
+body {
+  background-color: #C2FFD9;
+  text-align: center;
+}
+
+.pic-align {
+  margin-right: 30px;
+  margin-left: 170px;
+  width: 35%;
+  float: left;
+}
+
+.bottom-container {
+  background-color: #00A19D;
+  padding: 50px 0 20px;
+  border-radius: 8px;
+}
+
+.table {
+  margin-left: 0;
+}
+
+h3 {
+  color: #00A19D;
+}
+
+.p-align {
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.text-align {
+  margin-right: 200px;
+}
+
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 30px auto 30px auto;
+}
+
+table {
+  margin: auto;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.size {
+  width: 50px;
+  margin: auto;
+}
+
+.box {
+  width: 175px;
+  height: 42px;
+}
+
+.myButton {
+  font-family: 'Sacramento', cursive;
+}
+
+.btn {
+  font-family: 'Sacramento', cursive;
+}
+
+.crtsize {
+  width: 500px;
+}
+
+.color {
+  background-color: #92A9BD;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-gradient(linear, 25deg, #A683E3 50%, #E4E9FD 50%);
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Sacramento', cursive;
+  display: inline-block;
+  width: auto;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  display: inline-block;
+  width: auto;
+  background: #3cb0fd;
+  background-image: -webkit-gradient(linear, 25deg, #A683E3 50%, #E4E9FD 50%);
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
