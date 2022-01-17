@@ -3,7 +3,14 @@ body {
   text-align: center;
 }
 .top-container{
-  background-image: url('trophy.png');
+  background-image: url('images/lapfullview.jpg');
+
+  color: wheat;
+  cursor: -webkit-zoom-out;
+  height: -webkit-fill-available;
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: left;
 }
 .pic-align {
   margin-right: 30px;
