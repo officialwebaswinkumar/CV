@@ -4,13 +4,47 @@
 <head>
   <meta charset="utf-8">
   <title>My resume</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- google fonts link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cookie&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- fa icons link   -->
+  <script src="https://kit.fontawesome.com/7013ed1e06.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">RESUME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="For Contact Me.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="achive.html">Achievement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="top-container">
     <img class="pic-align" src="images/white cic.png" alt="Mr.Aswinkumar picture"></td>
     <div class="text-align">
@@ -21,7 +55,7 @@
       <h3>MAIL ID:</h3>
       <p><a href="aswinkumarsmart2002@gmail.com">aswinkumarsmart2002@gmail.com</a></p><br>
       <h3>LINKEDID:</h3>
-      <p><a href="linkedin.com/in/aswinkumar-r-603bb7211">linkedin.com/in/aswinkumar-r-603bb7211</a></p><br>
+      <p><a class="link" href="linkedin.com/in/aswinkumar-r-603bb7211">linkedin.com/in/aswinkumar-r-603bb7211</a></p><br>
     </div>
   </div>
   <hr>
@@ -31,8 +65,40 @@
       Looking for opportunities to incorporate my skills and training to help the company grow.<br>I am looking forward to roles that will help me realise my potential by exploring the various aspects of this field
     </p>
     <hr>
-    <h3>Education</h3>
-    <table class="blueTable" cellspacing="10" border="10">
+    <h3><u>Education</u></h3>
+    <!-- .............. -->
+    <table class="table table-bordered border-primary ">
+      <thead>
+        <tr class="table-success">
+          <th scope="col">QUALIFIACTION</th>
+          <th scope="col">BOARD / UNIVERSITY</th>
+          <th scope="col">YEAR OF COMPLETION</th>
+          <th scope="col">PERCENTAGE / CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="table-success">B.E(ECE)</th>
+          <td class="table-info">KSRCT</td>
+          <td class="table-info">2023</td>
+          <td class="table-info">8.2 CGPA <br>(UPTO 3rd SEM)</td>
+        </tr>
+        <tr>
+          <th scope="row" class="table-success">Standard XII</th>
+          <td class="table-info">S.V.V.M.Hr.Sec.School.<br>Kadayampatti</td>
+          <td class="table-info">2019</td>
+          <td class="table-info">55%</td>
+        </tr>
+        <tr>
+          <th scope="row"class="table-success">Standard X</th>
+          <td class="table-info">S.V.V.M.Hr.Sec.School.<br>Kadayampatti</td>
+          <td class="table-info">2017</td>
+          <td class="table-info">87.4%</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- old table  -->
+    <!-- <table class="blueTable" cellspacing="10" border="10">
       <thead>
         <tr>
           <td>QUALIFIACTION</td>
@@ -61,9 +127,9 @@
         </tr>
       </tbody>
       </thead>
-    </table>
+    </table> -->
     <hr>
-    <h3>Skills</h3>
+    <h3><u>Skills</u></h3>
     <table>
       <tr>
         <td><b>Front_End Developer Knowledge / designer</b></td>
@@ -91,14 +157,14 @@
       </tr>
     </table>
     <hr>
-    <h3>Project Presentaion</h3>
+    <h3><u>Project Presentaion</u></h3>
     <p>1)I have done a project presentation on <b>“SMART CART Using IoT”</b> in Muthayammal College of Engineering, March 2021 and I won a <b>First prize</b>. <br>
       2)I attend <b>3 days of Bootcamp</b> about <b>Entrepreneurship Development</b> helded in Coimbatore by
       Tamilnadu Student Innovator Club, February 2021 I have selected as one of the <b>finalist</b>.<br>
       3)I have completed a mini project in pre-final year on <b>“Street Light That Glows on Detecting Vehicle
         Movement Using 8051 and IR sensor”</b>November 2021.
       <hr>
-    <h3>Paper Presentation</h3>
+    <h3><u>Paper Presentation</u></h3>
     <p>1)I was presented a paper on <b>“RFID TECHNOLOGY”</b> in Muthayammal College of Engineering and I got 3rd prize, March 2021. <br>
       2)I presented a paper on the topic of <b>“HOME AUTOMATION”</b>in NSN College of Technology, February 2020. <br>
       3)I have attended 6 day's Workshop on <b>Digisnare “Web Design and Development”</b>, June 2021. <br>
@@ -106,7 +172,7 @@
         Safety and Security”</b>, Hindustan Institute of Technology Coimbatore ,October 2021.
       5)I have completed <b>“Front end Developer”</b> course in <b>Udemy</b> </p>
     <hr>
-    <h3>Leadership</h3>
+    <h3><u>Leadership</u></h3>
     <p>1)I have been Organized Symposium on our college contest Name:<b>Circuit Debugging</b><br>
       2)I have selected Student Coordinator for <b>INFOSYS HEAD START</b><br>
       3)I have participated MARATHON for CANCER AWERNESS conducted by K.S.Rangasamy College of Technology held in Erode (10KM). <br>
@@ -114,12 +180,12 @@
       4)I am act as a <b>Class Representative</b> in third year
     </p>
     <hr>
-    <h3>Internship</h3>
+    <h3><u>Internship</u></h3>
     <p>I have completed one month internship in <b>TECHSNAP</b> "Designer internship" <br>Internship Duration : August to September 2021</p>
     <hr>
     <div>
-      <h3>Persional Information</h3>
       <table class="table">
+        <h3><u>Persional Information</u></h3>
         <tr>
           <td>Father’s Name:</td>
           <td>Mr.Ramesh S.</td>
@@ -127,6 +193,7 @@
           <td>Mother’s Name:</td>
           <td>Mrs.Parimala R.</td>
         </tr>
+        <tr>
         <td>Date of Birth:</td>
         <td>18-04-2002.</td>
         </tr>
@@ -157,25 +224,20 @@
       </table>
     </div>
     <hr>
-    <h3>Decleration</h3>
+    <h3><u>Decleration</u></h3>
     <p>I declare that all the above information is correct to the best of my knowledge and belief.</p>
     <hr>
   </div>
-  <p class="left">(16-01-2022)</p>
-  <p class="right">(ASWINKUMAR R)</p>
-  <div class="bottom-container">
-    <table>
-      <tr>
-        <td><img class="size" src="images/contact.png" alt=""></td>
-        <td><a class="btn" href="For Contact Me.html">
-            <h2 class="marg">Contact Me</h2>
-          </a></td>
-        <td> <img class="size" src="images/trophy.png" alt=""> </td>
-        <td><a class="btn" href="achive.html">
-            <h2 class="marg">Achievement</h2>
-          </a></td>
-    </table>
+  <div class="row">
+    <div class="col-lg-6">
+      <p class="style">(16-01-2022)</p>
+    </div>
+    <div class="col-lg-6">
+      <p class="style">(ASWINKUMAR R)</p>
+    </div>
   </div>
+
+
 </body>
 
 </html>
